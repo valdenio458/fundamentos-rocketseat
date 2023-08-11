@@ -11,8 +11,16 @@ body {
 }
 
 #container {
-  border: 1px solid red;
-  height: 712px;
+  border: 1px solid red;  
   width: 360px;
+  margin: auto;
+}
+
+
+#profile {
+  text-align: center;
+}
+#profile img {
+  width: 112px;
   margin: auto;
 }
