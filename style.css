@@ -125,7 +125,7 @@ ul li a {
   border: 1px solid var(--surface-color);
   border-radius: 8px;
   display: flex;
-  font-weight: bold;
+  font-weight: 500;
   justify-content: center; /* eixo x */
   padding: 16px 24px;
   text-decoration: none;
