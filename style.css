@@ -51,6 +51,8 @@ body * {
 
 /** profile */
 #profile {
+  margin: auto;
+  width: 112px;
   padding: 24px;
   text-align: center;
 }
@@ -112,7 +114,7 @@ body * {
 ul {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
   list-style: none;
   padding: 24px 0;
 }
@@ -129,6 +131,7 @@ ul li a {
   padding: 16px 24px;
   text-decoration: none;
   transition: background 0.2s;
+  -webkit-backdrop-filter: blur(4px);
 }
 
 /* pseudo seletor */
