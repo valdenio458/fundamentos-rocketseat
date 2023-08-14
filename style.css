@@ -87,11 +87,11 @@ body * {
 
   width: 32px;
   z-index: 1;
-  animation: slide-back 0.4s;
+  animation: slide-right 0.4s;
 }
 
 .light #switch button {
-  animation: slide-in 0.4s forwards;
+  animation: slide-left 0.4s forwards;
 }
 
 #switch button:hover {
@@ -178,7 +178,7 @@ footer {
 }
 
 /* animation */
-@keyframes slide-in {
+@keyframes slide-left {
   from {
     left: 0;
   }
@@ -187,7 +187,7 @@ footer {
   }
 }
 
-@keyframes slide-back {
+@keyframes slide-right {
   from {
     left: 50%;
   }
