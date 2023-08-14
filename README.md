@@ -6,10 +6,10 @@
   <a href="#memo-licença">Licença</a>
 </p>
 <br>
-<!-- <p align="center">
+<p align="center">
   <img alt="dark-mode" src="./assets/dark-mode.png" width="200px">&nbsp;
   <img alt="light-mode" src="./assets/light-mode.png" width="200px">
-</p> -->
+</p>
 
 ## :rocket: Tecnologias
 
