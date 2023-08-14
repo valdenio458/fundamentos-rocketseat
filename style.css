@@ -28,7 +28,7 @@ body {
   /* background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: cover;surface-color-hover
   */
 
   /* shorthand (atalho)
@@ -121,8 +121,8 @@ ul {
 ul li a {
   align-items: center; /* eixo y */
   backdrop-filter: blur(4px);
-  background: var(--stroke-color);
-  border: 1px solid var(--surface-color);
+  background: var(--surface-color-hover);
+  border: 1px solid var(--text-color);
   border-radius: 8px;
   display: flex;
   font-weight: 500;
@@ -135,7 +135,7 @@ ul li a {
 
 /* pseudo seletor */
 ul li a:hover {
-  background: var(--surface-color-hover);
+  background: var(--stroke-color);
   border: 1.5px solid var(--text-color);
 }
 
